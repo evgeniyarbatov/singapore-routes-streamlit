@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Bendemeer",
+        "distance": "3.5km",
+        "gpx": "gpx/Bendemeer.gpx",
+        "map": "maps/Bendemeer.png"
+    },
+    {
+        "name": "Toa Payoh",
+        "distance": "6.1km",
+        "gpx": "gpx/Toa Payoh.gpx",
+        "map": "maps/Toa Payoh.png"
+    },
+    {
+        "name": "The Meadow",
+        "distance": "5.3km",
+        "gpx": "gpx/The Meadow.gpx",
+        "map": "maps/The Meadow.png"
+    },
+    {
+        "name": "Marina Barrage",
+        "distance": "4.9km",
+        "gpx": "gpx/Marina Barrage.gpx",
+        "map": "maps/Marina Barrage.png"
+    },
+    {
+        "name": "Singapore River",
+        "distance": "11.6km",
+        "gpx": "gpx/Singapore River.gpx",
+        "map": "maps/Singapore River.png"
+    },
+    {
+        "name": "Fort Canning",
+        "distance": "8.7km",
+        "gpx": "gpx/Fort Canning.gpx",
+        "map": "maps/Fort Canning.png"
+    },
+    {
+        "name": "Marina Bay",
+        "distance": "3.1km",
+        "gpx": "gpx/Marina Bay.gpx",
+        "map": "maps/Marina Bay.png"
+    },
+    {
+        "name": "Benjamin Sheares Bridge",
+        "distance": "3.4km",
+        "gpx": "gpx/Benjamin Sheares Bridge.gpx",
+        "map": "maps/Benjamin Sheares Bridge.png"
+    },
+    {
+        "name": "Bedok Jetty",
+        "distance": "12.3km",
+        "gpx": "gpx/Bedok Jetty.gpx",
+        "map": "maps/Bedok Jetty.png"
+    },
+    {
+        "name": "Telok Kurau Park",
+        "distance": "8.3km",
+        "gpx": "gpx/Telok Kurau Park.gpx",
+        "map": "maps/Telok Kurau Park.png"
+    },
+    {
+        "name": "MacRitchie",
+        "distance": "8.7km",
+        "gpx": "gpx/MacRitchie.gpx",
+        "map": "maps/MacRitchie.png"
+    },
+    {
+        "name": "Bukit Timah",
+        "distance": "18.7km",
+        "gpx": "gpx/Bukit Timah.gpx",
+        "map": "maps/Bukit Timah.png"
+    },
+    {
+        "name": "Rail Corridor",
+        "distance": "17.4km",
+        "gpx": "gpx/Rail Corridor.gpx",
+        "map": "maps/Rail Corridor.png"
+    },
+    {
+        "name": "Mount Faber",
+        "distance": "11.0km",
+        "gpx": "gpx/Mount Faber.gpx",
+        "map": "maps/Mount Faber.png"
+    },
+    {
+        "name": "West Coast Park",
+        "distance": "19.8km",
+        "gpx": "gpx/West Coast Park.gpx",
+        "map": "maps/West Coast Park.png"
+    },
+    {
+        "name": "Bedok Reservoir",
+        "distance": "21.4km",
+        "gpx": "gpx/Bedok Reservoir.gpx",
+        "map": "maps/Bedok Reservoir.png"
+    },
+    {
+        "name": "Changi Beach Park",
+        "distance": "33.7km",
+        "gpx": "gpx/Changi Beach Park.gpx",
+        "map": "maps/Changi Beach Park.png"
+    },
+    {
+        "name": "Punggol Promenade",
+        "distance": "17.7km",
+        "gpx": "gpx/Punggol Promenade.gpx",
+        "map": "maps/Punggol Promenade.png"
+    },
+    {
+        "name": "Palawan Beach",
+        "distance": "12.4km",
+        "gpx": "gpx/Palawan Beach.gpx",
+        "map": "maps/Palawan Beach.png"
+    },
+    {
+        "name": "Crawford Bridge",
+        "distance": "2.1km",
+        "gpx": "gpx/Crawford Bridge.gpx",
+        "map": "maps/Crawford Bridge.png"
+    },
+    {
+        "name": "Keppel Desalination Plant",
+        "distance": "4.5km",
+        "gpx": "gpx/Keppel Desalination Plant.gpx",
+        "map": "maps/Keppel Desalination Plant.png"
+    },
+    {
+        "name": "Geylang River",
+        "distance": "3.4km",
+        "gpx": "gpx/Geylang River.gpx",
+        "map": "maps/Geylang River.png"
+    },
+    {
+        "name": "Bishan Ang Mo Kio Park",
+        "distance": "10.3km",
+        "gpx": "gpx/Bishan Ang Mo Kio Park.gpx",
+        "map": "maps/Bishan Ang Mo Kio Park.png"
+    },
+    {
+        "name": "Woodlands Jetty",
+        "distance": "28.5km",
+        "gpx": "gpx/Woodlands Jetty.gpx",
+        "map": "maps/Woodlands Jetty.png"
+    }
+]

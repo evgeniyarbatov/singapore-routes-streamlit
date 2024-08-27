@@ -1,42 +1,36 @@
 import streamlit as st
 import json
 
+ROUTES_DIR = 'routes'
+
+def get_distance(item):
+    return float(item['distance'].replace('km', ''))
+
 def main():
     st.title("Singapore Running Routes")
 
-    st.markdown(
-        """
-        <div style='text-align: center;'>
-            <h1>Welcome to My Streamlit App</h1>
-            <p>This is an introduction to the app. Here, you can find various features and functionalities.</p>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-    with open('routes/metadata.json') as f:
+    with open(f'{ROUTES_DIR}/metadata.json') as f:
         config = json.load(f)
 
-    num_cols = 1
-    cols = st.columns(num_cols)
+    config = sorted(config, key=get_distance)
 
-    for i, route in enumerate(config):
-        col = cols[i % num_cols]
-        with col:
-            st.subheader(route["distance"])
-            st.image(
-                f"routes/{route['map']}", 
-                use_column_width = True,
+    for _, route in enumerate(config):
+        st.subheader(f'{route["name"]} - {route["distance"]}')
+        
+        gpx_path = f"{ROUTES_DIR}/{route['gpx']}"
+        with open(gpx_path, 'rb') as file:
+            st.download_button(
+                label="GPX",
+                data=file,
+                file_name=gpx_path.split('/')[-1],
+                mime="application/gpx+xml",
+                type="primary",
+                use_container_width=True
             )
-            
-            gpx_path = f"routes/{route['gpx']}"
-            with open(gpx_path, 'rb') as file:
-                btn = st.download_button(
-                    label="GPX",
-                    data=file,
-                    file_name=gpx_path.split('/')[-1],
-                    mime="application/gpx+xml"
-                )
+
+        st.image(
+            f"{ROUTES_DIR}/{route['map']}",
+        )
 
 if __name__ == "__main__":
     main()
