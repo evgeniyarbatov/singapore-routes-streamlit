@@ -17,7 +17,7 @@ def main():
     
     st.markdown("""
         How did I create the routes? 
-        I use my GPX files from Strava to extract places I visit frequently.
+        I used my GPX files from Strava to extract places I visit frequently.
         I then chose several landmarks in Singapore and created routes to them.
     """)
 
