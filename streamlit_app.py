@@ -9,6 +9,24 @@ def get_distance(item):
 def main():
     st.title("Singapore Running Routes")
 
+    st.markdown("""
+        I started running in Singapore in 2019.
+        I explored a variety of places and I encourage you to do the same.
+        These routes are meant as an inspiration for you to get started. 
+    """)
+    
+    st.markdown("""
+        How did I create the routes? 
+        I use my GPX files from Strava to extract places I visit frequently.
+        I then chose several landmarks in Singapore and created routes to them.
+    """)
+
+    st.markdown("""
+        New to GPX? 
+        See steps for [Garmin](https://support.garmin.com/en-US/?faq=wKuZXCaZRP4mWPX5aRz5h5) 
+        and [Polar](https://support.polar.com/en/how-to-import-route).
+    """)
+
     with open(f'{ROUTES_DIR}/metadata.json') as f:
         config = json.load(f)
 
